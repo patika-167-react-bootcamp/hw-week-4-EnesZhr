@@ -152,9 +152,6 @@ function Todo() {
 
   return (
     <>
-      <Button variant="contained" onClick={handleTodoAdded}>
-        +
-      </Button>
       <Filter
         categoryList={categoryList}
         statuList={statuList}
